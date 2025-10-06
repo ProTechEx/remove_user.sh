@@ -15,18 +15,11 @@ It will:
 
 ### 1) Download the script
 ```bash
-curl -O https://raw.githubusercontent.com/ProTechEx/remove_user.sh/main/remove_user.sh
-```
-
-### 2) Make it executable
-```bash
+curl -fsSL -o remove_user.sh https://raw.githubusercontent.com/ProTechEx/remove_user.sh/main/remove_user.sh
 chmod +x remove_user.sh
-```
-
-### 3) Run the script
-```bash
 sudo ./remove_user.sh
 ```
+
 
 The script will ask you to **enter the username** to remove and perform the full cleanup.
 
