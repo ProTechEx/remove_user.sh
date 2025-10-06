@@ -1,22 +1,21 @@
-# remove_user.sh
+# 🗑️ remove_user.sh
 
-A simple interactive Bash script to safely remove a user from an Ubuntu system.
-
-It will:
-- Kill all user processes
-- End active SSH/TTY sessions
-- Lock the account
-- Remove sudo/admin privileges
-- Delete the user and their home directory
-- Clean up leftover files (cron, mail, etc.)
+A simple interactive Bash script to **safely remove a user** from an Ubuntu system.  
+It will:  
+- Kill all user processes  
+- End active SSH/TTY sessions  
+- Lock the account  
+- Remove sudo/admin privileges  
+- Delete the user and their home directory  
+- Clean up leftover files (cron, mail, etc.)  
 
 ---
 
-## Usage
+## 🔧 Usage
 
 ### 1) Download the script
 ```bash
-curl -O https://raw.githubusercontent.com/ProTechEx/remove_user.sh/refs/heads/main/remove_user.sh
+curl -O https://raw.githubusercontent.com/ProTechEx/remove_user.sh/main/remove_user.sh
 ```
 
 ### 2) Make it executable
@@ -29,24 +28,21 @@ chmod +x remove_user.sh
 sudo ./remove_user.sh
 ```
 
-The script will ask you to enter the username to remove and perform the full cleanup.
+The script will ask you to **enter the username** to remove and perform the full cleanup.
 
 ---
 
-## One-liner (download + execute)
+## 🚀 One-liner (download + execute)
 
 Run this directly without saving the file locally:
 
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/ProTechEx/remove_user.sh/refs/heads/main/remove_user.sh)
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/ProTechEx/remove_user.sh/main/remove_user.sh)
 ```
-
-(If you prefer to be prompted for sudo within the script instead, omit the leading `sudo`.)
 
 ---
 
-## Warning
-
-- This script permanently deletes the user and their home directory.
-- Double-check before proceeding.
-- Use with sudo privileges.
+## ⚠️ Warning
+- This script **permanently deletes the user and their home directory**.  
+- Double-check before proceeding.  
+- Use with `sudo` privileges.  
