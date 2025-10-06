@@ -32,16 +32,6 @@ The script will ask you to **enter the username** to remove and perform the full
 
 ---
 
-## 🚀 One-liner (download + execute)
-
-Run this directly without saving the file locally:
-
-```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/ProTechEx/remove_user.sh/main/remove_user.sh)
-```
-
----
-
 ## ⚠️ Warning
 - This script **permanently deletes the user and their home directory**.  
 - Double-check before proceeding.  
